@@ -13,7 +13,7 @@ classifiers = [
 repository = "https://github.com/rominf/module-wrapper"
 
 [tool.poetry.dependencies]
-python = "^3.6,<3.10"
+python = "^3.6,<=3.11"
 stdlib_list = "^0.8.0"
 
 [tool.poetry.dev-dependencies]
