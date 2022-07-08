@@ -11,7 +11,7 @@ __all__ = ['wrap', '__version__']
 __version__ = "0.3.1"
 
 
-STDLIB_MODULE_NAMES = stdlib_list.stdlib_list()
+STDLIB_MODULE_NAMES = stdlib_list.stdlib_list("3.6")
 STDLIB_MODULE_NAMES_REGEX = f"({'|'.join(re.escape(stdlib_module_name) for stdlib_module_name in STDLIB_MODULE_NAMES)})"
 _wrapped_objs = {}
 
