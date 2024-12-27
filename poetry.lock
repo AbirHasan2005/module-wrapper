@@ -11,7 +11,7 @@ develop = ["sphinx"]
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.6"
+python-versions = "^3.10"
 content-hash = "1c55dc5a95e223c0a20835c337c8ffc2a71be0fb41a2437471d0139eaf0db195"
 
 [metadata.files]
